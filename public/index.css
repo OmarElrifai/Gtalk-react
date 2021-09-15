@@ -1,0 +1,231 @@
+
+.welcomePage h2{
+    color: #0c57d8;
+    font-size: 80px;
+    margin:20% auto;
+}
+.carousel{
+ margin: 20%;
+ height: 500px;
+}
+body{
+    height: 100%;
+    background: linear-gradient(30deg,#8b44e3 30%,#dce4e9 30.2%) fixed;
+    background-repeat: no-repeat;
+    
+   font-family: sans-serif;
+}
+
+.lists{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 30% 30%;
+    grid-gap:10px;
+    justify-content: center;
+}
+.item{
+    background-color:#9196ec ;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    padding: 10%;
+
+}
+.lists-container{
+    text-align: center;
+    
+}
+.item img{
+ width: 30%;
+ height: 30%;
+}
+
+.posting textarea{
+    border-radius: 10px;
+}
+
+.home-item{
+    background-color:#9196ec ;
+    padding:5%;
+    height: 200px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img-card {
+    float: left;
+    width: 10%;
+    height: 90%;
+    background-color: red;
+}
+.img-card p {
+    margin-top: 0px;
+}
+.Link{
+    text-decoration: none;
+    color:blue;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.post-container{
+    width:70% ;
+    margin: auto;
+}
+.posting{
+    background-color:grey;
+    /* border: 1px solid grey; */
+    border-radius: 20px;
+    padding: 5%;
+    margin-bottom: 30px;
+}
+button{
+    padding: 10px 70px ;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.App{
+    text-align: center;
+    margin-top: 200px;
+}
+.login{
+    width: 30%;
+    margin: auto;
+    background-color: white;
+    border-radius: 15px;
+    padding: 5%;
+}
+input{
+    width:80% ;
+    padding: 2% 1%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 0.5px solid;
+    
+}
+footer{
+    background-color: rgba( 17, 19, 23, 0.838 );
+    margin-top: 200px;
+    height: 80px;
+    color: blanchedalmond;
+    padding: 30px 0;
+}
+.profile{
+  list-style-type: none;
+  background-color: #f1a117;
+  padding: 7% 7% 10% 5%;
+  min-height: 600px ;
+  font-size:25px ;
+  display: grid;
+  grid-template-columns:30% 60% ;
+  grid-template-rows: 80%;
+  grid-gap: 10%;
+  margin-bottom: 100px;
+}
+.profile-img{
+    margin-top: 30px;
+    width: 100%;
+    height: 100%;
+    
+}
+.profile ul{
+    margin-top: 30px;
+    list-style-type: none;
+    text-align: start;
+}
+
+.home-item2 {
+    background-color:#9196ec ;
+    padding:5%;
+    height: 200px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img-card2 {
+    float: left;
+    width: 10%;
+    height: 90%;
+    background-color: red;
+}
+
+/* navbar css */
+.search{
+    width: 100%;
+    display: none;
+    height: 30px;
+    border-radius:15px ;
+   outline: none;
+   padding: 10px;
+
+}
+#logo{
+    float: left;
+}
+#navbar{
+    position: fixed;
+    width: 100%;
+    top:0px;
+    left: 0px;
+    z-index: 5;
+    padding:10px 0px;
+    background-color:rgba(5, 3, 0, 0.734) ;
+}
+
+.img{
+width: 50px;
+height: 50px;
+display: none;
+float: right;
+}
+.font{
+    color: white;
+}
+.cola{
+    display: flex;
+    flex-direction: column;
+    clear: both;
+    list-style-type: none;
+}
+.rowa {
+    
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    
+}
+
+#nav-items li{
+    margin-left: 2%;
+    float: left;
+    display: inline;
+}
+#nav-items{
+padding-top:10px ;
+
+}
+#nav-items li a:hover{
+    color: #dfd6d6;
+    background-color: #c2b7b7;
+    padding:5px;
+    border-radius: 10px;
+}
+
+.menu {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}
+
+.Link2{
+    text-decoration: none;
+}
+
+@media screen and (min-width:960px) {
+    .menu:nth-child(3){
+        margin-right: 60%;
+      }
+}
+
+/* end navbar css */
